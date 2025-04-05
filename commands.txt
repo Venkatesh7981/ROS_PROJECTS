@@ -1,0 +1,20 @@
+(1) Write a ROS 2 publisher and subscriber node. The topic name is /chat, and the msg
+type is std_msgs/String. It should publish like
+"Hello World 1"
+"Hello World 2"
+------------
+mkdir ros2_ws
+mkdir src 
+ros2_ws-colcon build
+src-ros2 pkg create --build-type ament_python --license Apache-2.0 py_pubsub
+---setup.py---
+ 'talker = py_pubsub.publisher_member_function:main',
+ 'listener = py_pubsub.subscriber_member_function:main',
+----1st terminal------
+colcon build --packages-select py_pubsub
+source install/setup.bash
+ros2 run py_pubsub talker
+----2nd Terminal----
+colcon build --packages-select py_pubsub
+source install/setup.bash
+ros2 run py_pubsub listener

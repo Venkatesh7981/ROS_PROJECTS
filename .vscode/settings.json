@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/charan/ros2_train_ws/install/python_parameters/lib/python3.12/site-packages",
+        "/home/charan/ros2_train_ws/install/py_srvcli/lib/python3.12/site-packages",
+        "/home/charan/ros2_train_ws/install/hello_ros2/lib/python3.12/site-packages",
+        "/home/charan/ros2_train_ws/src/install/py_srvcli/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/charan/ros2_train_ws/install/python_parameters/lib/python3.12/site-packages",
+        "/home/charan/ros2_train_ws/install/py_srvcli/lib/python3.12/site-packages",
+        "/home/charan/ros2_train_ws/install/hello_ros2/lib/python3.12/site-packages",
+        "/home/charan/ros2_train_ws/src/install/py_srvcli/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

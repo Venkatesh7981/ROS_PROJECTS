@@ -1,0 +1,42 @@
+[0.735s] Invoking command in '/home/charan/ros_lab/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/charan/ros_lab/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charan/ros_lab/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/charan/ros_lab/build/py_pubsub/build install --record /home/charan/ros_lab/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.960s] running egg_info
+[0.960s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[0.978s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.978s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.978s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.978s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.978s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.978s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.013s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.013s] adding license file 'LICENSE'
+[1.014s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.014s] running build
+[1.014s] running build_py
+[1.014s] creating /home/charan/ros_lab/build/py_pubsub/build
+[1.014s] creating /home/charan/ros_lab/build/py_pubsub/build/lib
+[1.014s] creating /home/charan/ros_lab/build/py_pubsub/build/lib/py_pubsub
+[1.014s] copying py_pubsub/__init__.py -> /home/charan/ros_lab/build/py_pubsub/build/lib/py_pubsub
+[1.014s] copying py_pubsub/subscriber_member_function.py -> /home/charan/ros_lab/build/py_pubsub/build/lib/py_pubsub
+[1.015s] copying py_pubsub/publisher_member_function.py -> /home/charan/ros_lab/build/py_pubsub/build/lib/py_pubsub
+[1.015s] running install
+[1.021s] running install_lib
+[1.040s] creating /home/charan/ros_lab/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.040s] copying /home/charan/ros_lab/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/charan/ros_lab/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.040s] copying /home/charan/ros_lab/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/charan/ros_lab/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.040s] copying /home/charan/ros_lab/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/charan/ros_lab/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.041s] byte-compiling /home/charan/ros_lab/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc
+[1.041s] byte-compiling /home/charan/ros_lab/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-312.pyc
+[1.041s] byte-compiling /home/charan/ros_lab/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+[1.042s] running install_data
+[1.042s] creating /home/charan/ros_lab/install/py_pubsub/share/ament_index
+[1.042s] creating /home/charan/ros_lab/install/py_pubsub/share/ament_index/resource_index
+[1.042s] creating /home/charan/ros_lab/install/py_pubsub/share/ament_index/resource_index/packages
+[1.042s] copying resource/py_pubsub -> /home/charan/ros_lab/install/py_pubsub/share/ament_index/resource_index/packages
+[1.042s] copying package.xml -> /home/charan/ros_lab/install/py_pubsub/share/py_pubsub
+[1.042s] running install_egg_info
+[1.061s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/charan/ros_lab/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[1.062s] running install_scripts
+[1.187s] Installing listener script to /home/charan/ros_lab/install/py_pubsub/lib/py_pubsub
+[1.187s] Installing talker script to /home/charan/ros_lab/install/py_pubsub/lib/py_pubsub
+[1.187s] writing list of installed files to '/home/charan/ros_lab/build/py_pubsub/install.log'
+[1.211s] Invoked command in '/home/charan/ros_lab/src/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/charan/ros_lab/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charan/ros_lab/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/charan/ros_lab/build/py_pubsub/build install --record /home/charan/ros_lab/build/py_pubsub/install.log --single-version-externally-managed install_data

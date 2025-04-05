@@ -1,0 +1,9 @@
+[console_scripts]
+draw_circles = py_pubsub.draw_circles:main
+draw_letters = py_pubsub.draw_letters:main
+listener = py_pubsub.subscriber_member_function:main
+multi_publisher = py_pubsub.multi_publisher:main
+multi_subscriber = py_pubsub.multi_subscriber:main
+navigate_turtlebot3 = py_pubsub.navigate_turtlebot3:main
+talker = py_pubsub.publisher_member_function:main
+zigzag_clean = py_pubsub.zigzag_clean:main
