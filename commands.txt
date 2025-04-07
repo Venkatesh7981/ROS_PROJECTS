@@ -18,3 +18,30 @@ ros2 run py_pubsub talker
 colcon build --packages-select py_pubsub
 source install/setup.bash
 ros2 run py_pubsub listener
+
+
+
+
+
+1) colcon build --packages-select py_pubsub
+source install/setup.bash
+ros2 run py_pubsub talker
+ term2
+ros2 run py_pubsub listener
+2)
+colcon build --packages-select py_pubsub
+source install/setup.bash
+ ros2 run py_pubsub multi_subscriber
+termi2
+ ros2 run py_pubsub multi_publisher
+
+3)ros2 run turtlesim turtlesim_node
+termn2
+python3 draw_circles.py
+4)ros2 run turtlesim turtlesim_node
+termi2
+python3 draw_letters.py
+5)ros2 run turtlesim turtlesim_node
+termin2
+python3 zigzag_clean.py
+6)
