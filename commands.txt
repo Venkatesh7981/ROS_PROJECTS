@@ -23,7 +23,8 @@ ros2 run py_pubsub listener
 
 
 
-1) colcon build --packages-select py_pubsub
+1)ros2 pkg create --build-type ament_python --license Apache-2.0 py_pubsub
+colcon build --packages-select py_pubsub
 source install/setup.bash
 ros2 run py_pubsub talker
  term2
@@ -44,4 +45,6 @@ python3 draw_letters.py
 5)ros2 run turtlesim turtlesim_node
 termin2
 python3 zigzag_clean.py
-6)
+6)ros2 launch nav2_bringup tb3_simulation_launch.py headless:=False
+python3 obstacle.py
+
